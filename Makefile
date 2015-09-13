@@ -7,7 +7,7 @@ VERSION :=$(shell cat VERSION)
 #NAMESPACE :=$(shell cat NAMESPACE)
 
 
-default: dockerbuild test version push
+default: dockerbuild push
 
 test:
 	docker run --rm $(NAMESPACE)/$(IMAGENAME) --help
