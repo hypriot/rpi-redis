@@ -1,0 +1,8 @@
+*~
+.drone.yml
+FILEPATH
+VERSION
+Makefile
+.git
+.gitignore
+README.md
