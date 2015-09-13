@@ -23,7 +23,7 @@ loadS3_and_extract:
 	ls -la content/
 
 dockerbuild:
-	docker build -tf $(NAMESPACE)/$(IMAGENAME) .
+	docker build -t $(NAMESPACE)/$(IMAGENAME) .
 
 testimg:
 	docker rm -f new-$(IMAGENAME) || true
