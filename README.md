@@ -1,4 +1,4 @@
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-redis)](https://registry.hub.docker.com/u/hypriot/rpi-redis/)
+# rpi-redis
 
 Raspberry Pi compatible Docker base image with [Redis](http://redis.io/).  
 
